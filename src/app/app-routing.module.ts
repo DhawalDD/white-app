@@ -8,6 +8,9 @@ const routes: Routes = [
   { path: '1', component: Page1Component },
   { path: '2', component: Page2Component },
   { path: '3', component: Page3Component },
+
+  // making one of the page :: default page :: redirecting there
+  { path: '', redirectTo: '/2', pathMatch: 'full' },
 ];
 
 @NgModule({
