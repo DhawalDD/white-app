@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "white-app"
+    }
+  },
+  "defaultProject": "white-app",
+  "cli": {
+    "analytics": false
+  }
 }
