@@ -14,13 +14,10 @@ import { Page4Component } from './page4/page4.component';
     Page1Component,
     Page2Component,
     Page3Component,
-    Page4Component
+    Page4Component,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
